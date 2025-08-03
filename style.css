@@ -28,7 +28,28 @@ h1 {
 }
 
 form {
-  text-align: left;
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2em;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Center form vertically using flex layout on body */
+
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  form {
+    padding: 1.5em 1em;
+    width: 95%;
+  }
 }
 
 form input, form select, form button {
@@ -74,12 +95,27 @@ button:hover {
 
 form {
   position: relative;
-  background: rgba(255, 255, 255, 0.85);
-  padding: 2em;
-  border-radius: 10px;
-  max-width: 600px;
-  margin: 5em auto;
   z-index: 1;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2em;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Center form vertically using flex layout on body */
+
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  form {
+    padding: 1.5em 1em;
+    width: 95%;
+  }
 }
 
 select[multiple] {
@@ -104,13 +140,26 @@ select[multiple] {
 form {
   position: relative;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.9); /* white with slight transparency */
+  background: rgba(255, 255, 255, 0.95);
   padding: 2em;
-  border-radius: 10px;
-  max-width: 600px;
-  margin: 5em auto;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  width: 90%;
+  max-width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Center form vertically using flex layout on body */
+
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  form {
+    padding: 1.5em 1em;
+    width: 95%;
+  }
 }
 
 /* Multi-select Dropdown */
@@ -137,14 +186,26 @@ body {
 form {
   position: relative;
   z-index: 1;
-  background: white;
+  background: rgba(255, 255, 255, 0.95);
   padding: 2em;
   border-radius: 12px;
-  max-width: 400px;
-  margin: 5em auto;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   text-align: center;
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Center form vertically using flex layout on body */
+
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  form {
+    padding: 1.5em 1em;
+    width: 95%;
+  }
 }
 
 /* Input Styling */
@@ -183,25 +244,32 @@ button, input[type="submit"] {
 }
 
 /* Body & Layout */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 /* Form Centered Like Invitation Card */
 form {
+  position: relative;
+  z-index: 1;
   background: rgba(255, 255, 255, 0.95);
-  padding: 2.5em;
+  padding: 2em;
   border-radius: 12px;
   width: 90%;
-  max-width: 400px;
+  max-width: 320px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
   text-align: center;
   border: 1px solid #ccc;
+  margin: 0 auto;
+}
+
+/* Center form vertically using flex layout on body */
+
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  form {
+    padding: 1.5em 1em;
+    width: 95%;
+  }
 }
 
 /* Input Fields */
