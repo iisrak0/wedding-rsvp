@@ -1,44 +1,34 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Wedding RSVP</title>
-  <link rel="stylesheet" href="style.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Wedding RSVP</title>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-
-<video autoplay muted loop id="bg-video">
-  <source src="video/background.mp4" type="video/mp4">
+<video autoplay="" id="bg-video" loop="" muted="">
+<source src="video/background.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
-
-
-
-
-  <div class="container">
-    
-    <form name="rsvp" method="POST" data-netlify="true" action="/thank-you.html">
-      <input type="text" name="name" placeholder="Full Name" required />
-
-      <select name="attendance" required>
-        <option value="">Will you attend?</option>
-        <option value="Yes">Yes</option>
-        <option value="No">No</option>
-      </select>
-
-      <input type="number" name="guests" placeholder="Number of Guests" min="0" />
-
-      <button type="submit">Send RSVP</button>
-    
-<label for="events">Which events will you attend?</label>
-<select id="events" name="events[]" multiple>
-  <option value="mehendi">Mehendi</option>
-  <option value="nikkah">Nikkah</option>
-  <option value="valima">Valima</option>
+<div class="container">
+<form action="/thank-you.html" data-netlify="true" method="POST" name="rsvp">
+<input name="name" placeholder="Full Name" required="" type="text"/>
+<select name="attendance" required="">
+<option value="">Will you attend?</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
 </select>
-
+<input min="0" name="guests" placeholder="Number of Guests" type="number"/>
+<button type="submit">Send RSVP</button>
+<label for="events">Which events will you attend?</label>
+<select id="events" multiple="" name="events[]">
+<option value="mehendi">Mehendi</option>
+<option value="nikkah">Nikkah</option>
+<option value="valima">Valima</option>
+</select>
 </form>
-  </div>
+</div>
 </body>
 </html>
