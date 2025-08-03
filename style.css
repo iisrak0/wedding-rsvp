@@ -59,3 +59,64 @@ button {
 button:hover {
   background-color: #a04d2f;
 }
+
+
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+form {
+  position: relative;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 5em auto;
+  z-index: 1;
+}
+
+select[multiple] {
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+/* Fullscreen Background Video */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* Centered Form Container */
+form {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.9); /* white with slight transparency */
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 5em auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+/* Multi-select Dropdown */
+select[multiple] {
+  width: 100%;
+  padding: 0.6em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
