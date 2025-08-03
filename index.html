@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Wedding RSVP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Wedding RSVP</h1>
+    <form name="rsvp" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Full Name" required />
+
+      <select name="attendance" required>
+        <option value="">Will you attend?</option>
+        <option value="Yes">Yes</option>
+        <option value="No">No</option>
+      </select>
+
+      <input type="number" name="guests" placeholder="Number of Guests" min="0" />
+
+      <button type="submit">Send RSVP</button>
+    </form>
+  </div>
+</body>
+</html>
