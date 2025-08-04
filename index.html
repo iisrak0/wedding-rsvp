@@ -8,13 +8,7 @@
 <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-  
-<video class="video-bg" autoplay muted loop playsinline>
-  <source src="bg-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-<video autoplay="" id="bg-video" loop="" muted="" playsinline="">
+<video autoplay="True" id="bg-video" loop="True" muted="True" playsinline="True" style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; object-fit: cover; z-index: -1;" autoplay muted playsinline loop>
 <source src="bg-video.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
@@ -27,13 +21,7 @@
 <option value="No">No</option>
 </select>
 <input min="0" name="guests" placeholder="Number of Guests" type="number"/>
-<label for="events">Which events will you attend?</label>
-<select id="events" multiple="" name="events[]">
-<option value="mehendi">Mehendi</option>
-<option value="nikkah">Nikkah</option>
-<option value="valima">Valima</option>
-</select>
-<button type="submit">Send RSVP</button></form>
+<button type="submit">Submit RSVP</button></form>
 </div>
 </body>
 </html>
